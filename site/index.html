@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="研究插画 Skill：用黑白雕刻漫画讲清科学、技术和历史。来源可核对，提示词可复用。"><title>Research Comic — 研究插画实验室</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><a class="brand" href="#"><span class="brand-mark">R<span>↗</span></span><span>RESEARCH COMIC<small>研究插画实验室</small></span></a><nav aria-label="主导航"><a href="#atlas">示例图谱</a><a href="#method">生成方法</a><a class="nav-install" href="#skill">获取 Skill ↗</a></nav></header>
+<main>
+<section class="hero">
+<div class="hero-copy"><p class="eyebrow">FIELD NOTES / VOL. 01</p><h1>让知识，<br>有<span>画面。</span></h1><p class="hero-intro">从一个事实，到一幅可以读懂的研究插画。<br>黑白雕刻漫画 × 青蓝知识标记 × 可核对的来源。</p><a class="button" href="#atlas">打开研究图谱 <span>↓</span></a><p class="hero-note">不是装饰知识，而是把关系讲清楚。</p></div>
+<div class="hero-art"><img src="assets/1990-linked-information.webp" alt="雕刻漫画风格：研究人员通过早期计算机连接信息"><span class="art-index">FIG. 001 / LINKED KNOWLEDGE</span><span class="art-tag">从 HTML 的故事开始</span></div>
+</section>
+<div class="manifesto"><span>01 — OBSERVE</span><p>科学有结构，历史有脉络。<br><strong>插画，让看不见的关系变得可见。</strong></p><span>事实先行 / 风格随后</span></div>
+<section id="atlas" class="atlas">
+<div class="section-heading"><div><p class="eyebrow">THE ILLUSTRATED ATLAS</p><h2>五个主题，一种视觉语言。</h2></div><p>选一个研究方向<br>查看插画、关键事实与生成指令</p></div>
+<div class="tabs" role="tablist" aria-label="研究主题"></div><article id="topic" role="tabpanel"></article>
+</section>
+<section id="method" class="method"><p class="eyebrow">FROM RESEARCH TO COMIC</p><h2>先弄清楚，<span>再画出来。</span></h2><div class="method-grid"><div><b>01</b><h3>核对资料</h3><p>先找原始来源，确定时间、数量和不确定性。</p></div><div><b>02</b><h3>选择结构</h3><p>时间轴、分支树、示意图或平行对照。关系决定画法。</p></div><div><b>03</b><h3>生成插画</h3><p>雕刻线条讲故事。重要文字单独排版，不交给生图猜。</p></div><div><b>04</b><h3>检查与交付</h3><p>逐项核对事实，保留来源、提示词和可编辑标签。</p></div></div></section>
+<section id="skill" class="skill"><div><p class="eyebrow">YOUR NEXT RESEARCH TOOL</p><h2>把这套方法，<br>带进你的 AI。</h2><p>独立的 Codex Skill。包含风格参考、研究布局、<br>事实校验规则与生成流程，不依赖这个网站运行。</p><div class="actions"><a class="button" href="downloads/research-comic.zip" download>下载 Skill ↓</a><a class="outline-button" href="https://github.com/mostdesign01-sudo/research-comic-skill" target="_blank" rel="noopener">GitHub 源码 ↗</a></div></div><div class="terminal"><div><i></i><i></i><i></i><span>research-comic / SKILL</span></div><pre><code>用 $research-comic&#10;把「人工智能发展史」变成研究插画。&#10;&#10;先核对关键节点和来源。&#10;使用黑白雕刻漫画，少量青蓝标记。&#10;图片不含文字，标签保持可编辑。&#10;交付插画、提示词和来源清单。</code></pre><p>需要宿主提供检索与生图能力。本网站不直接调用 API。</p></div></section>
+</main>
+<footer><span>RESEARCH COMIC / 2026</span><p>AI 生成的教学概念插画，非原始学术证据。<br>将知识可视化，也将来源留下。</p><a href="#">回到顶部 ↑</a></footer>
+<dialog id="image-dialog"><button class="close-dialog" aria-label="关闭大图">×</button><img alt=""><p></p></dialog><div id="toast" role="status" aria-live="polite"></div>
+<script src="data.js"></script><script src="app.js"></script></body></html>

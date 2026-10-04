@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Comic · 研究插画"
+  short_description: "用黑白雕刻漫画与青蓝标记，把研究知识变成可核对、可编辑的插画"
+  default_prompt: "Use $research-comic to create a source-backed educational illustration with editable labels and a source list."
