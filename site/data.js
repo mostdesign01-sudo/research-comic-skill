@@ -34,3 +34,14 @@ const topics = [
 ['英格兰 / 1215 年','大宪章','最初涉及国王与贵族权力关系，不应当作现代普遍人权宣言。'],
 ['英格兰 / 1689 年','权利法案','以议会权利与王权约束为观察点，理解宪政发展的一个节点。']]}
 ];
+// Exact prompts used for the four new image-generation calls, 2026-10-04.
+const generationPrompts = {
+solar: "Create a wide 3:2 educational editorial comic illustration of our solar system, on near-black paper. Fine white engraved crosshatching, stippling, subtle halftone print texture, sparse pale cyan accents under 10 percent. A large glowing sun at left and exactly eight distinctive planets arranged across a curved diagram: Mercury, Venus, Earth with moon, Mars, Jupiter striped, Saturn ringed, Uranus and Neptune. Schematic not to scale. Tangible astronomical research atlas atmosphere, carefully separated silhouettes, restrained diagram lines, generous margin, no lettering or labels anywhere, no realistic photograph, no glossy 3D. A beautiful readable monochrome scientific engraving with depth.",
+human: "Wide editorial scientific comic engraving on near-black paper, fine white crosshatching and stippling with sparse pale cyan. Show the research of human evolution as a branching visual tree in a natural history study: fossil skulls on separate shelves, a hand inspecting a stone tool, branching cyan connecting lines leading to separate coexistence nodes. No ape-to-human linear march, no direct modern ape ancestry, no text or numbers, no bones invented as evidence; conceptual museum illustration. Rich narrative detail but legible silhouettes, quiet empty margins, 3:2 landscape.",
+ai: "Wide 3:2 editorial research comic engraving on near-black paper, white detailed crosshatching and stippling, sparse cyan. A continuous conceptual research desk showing AI milestones through artifacts: an old 1950s research notebook and electronic computer at left, a chess board in middle-left, a layered neural network diagram at center, attention connections and a contemporary conversational screen at right. Sophisticated museum educational comic, consistent thin etched lines and paper grain, no robots, no brains, no neon spectacle, no baked-in text or numbers, generous margins.",
+countries: "Wide 3:2 educational editorial engraving comic, near-black paper, fine monochrome crosshatching and stippling, tiny cyan accents. Three clearly separated equal vertical panels for selected histories: left ancient Chinese Qin-era bronze and bamboo written slips beside palace architecture; middle Japanese Edo-era wooden architecture with scholarly scroll; right medieval English stone hall with parchment charter and wax seal. Objects and architectural atmosphere, no stereotyped faces, no flags, no modern maps, no suggestion of civilization rankings, no text. Elegant research atlas, coherent texture, generous margins."
+};
+topics.forEach(t => {
+  if (t.image) t.image = t.image.replace('.png','.webp');
+  if (generationPrompts[t.id]) t.prompt = generationPrompts[t.id];
+});
