@@ -1,5 +1,7 @@
 # Research layouts
 
+The dates and examples below are research leads, not a verified claim ledger. Check relevant primary sources for the current task and record evidence before including them in final output.
+
 ## Timeline
 Use 4–6 selected milestones; dates above, illustration in the middle, one causal or capability change below. Date ranges are not exact invention dates. HTML: 1989 proposal / 1991 public description; 1993 graphical browser; 1990s standardization; 2014 HTML5; living standard; AI-assisted authoring is a workflow change, not a new HTML version.
 
@@ -14,3 +16,4 @@ Select field formation (1956), chess milestone (1997), deep-learning image recog
 
 ## Country comparison
 Separate lanes, independent dates, explicit selection criterion. Examples: Qin unification 221 BCE; Edo government 1603; Magna Carta 1215. Do not imply chronological events in different lanes represent equivalent social systems or a progress ranking.
+
